@@ -1,0 +1,96 @@
+body {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    background: #f4e8dc;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    color: #3b2f2f;
+}
+
+.container {
+    background: #ffffff;
+    width: 600px;
+    border-radius: 20px;
+    padding: 20px 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.hero img {
+    width: 100%;
+    border-radius: 12px;
+}
+
+h1 {
+    font-size: 28px;
+    margin-top: 15px;
+}
+
+.desc {
+    margin : 10px 0 20px;
+    line-height: 1.5;
+}
+
+.prep-box {
+    background: #f7e9f5;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.prep-box h3 {
+    color: #7b2350;
+    margin-bottom: 8px;
+}
+
+.instructions-section {
+    margin-top: 30px;
+    font-family: Georgia, serif;
+}
+
+.instructions-desc {
+    margin: 20px 0 30px;
+    line-height: 1.5;
+}
+
+.instructions-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.instructions-table tr {
+    border-bottom: 1px solid #ddd;
+}
+
+.nutritions-section {
+    margin-top: 30px;
+    font-family: Georgia, serif;
+}
+
+.nutrition-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #742612; 
+    margin-bottom: 5px;
+}
+
+.nutrition-desc {
+    margin: 10px 0 20px;
+    line-height: 1.5;
+}
+
+.nutrition-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.nutrition-table tr {
+    border-bottom: 1px solid #ddd;
+}
+
+.nutrition-table td {
+    padding: 12px 0;
+    font-size: 16px;
+}
+
+.nutrition-table .value {
+    color: #742612; 
+}
