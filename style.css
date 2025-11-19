@@ -1,5 +1,5 @@
 body {
-    font-family: 'Segoe UI', Tahoma, sans-serif;
+    font-family: "Elms Sans", sans-serif;
     background: #f4e8dc;
     display: flex;
     justify-content: center;
@@ -9,7 +9,7 @@ body {
 
 .container {
     background: #ffffff;
-    width: 600px;
+    width: 700px;
     border-radius: 20px;
     padding: 20px 25px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -20,8 +20,10 @@ body {
     border-radius: 12px;
 }
 
-h1 {
-    font-size: 28px;
+.header {
+    font-family: "Elms Sans", sans-serif;
+    font-weight: bolder;
+    font-style: normal;
     margin-top: 15px;
 }
 
@@ -41,23 +43,11 @@ h1 {
     margin-bottom: 8px;
 }
 
-.instructions-section {
-    margin-top: 30px;
-    font-family: Georgia, serif;
-}
-
-.instructions-desc {
-    margin: 20px 0 30px;
-    line-height: 1.5;
-}
-
-.instructions-table {
-    width: 100%;
-    border-collapse: collapse;
-}
-
-.instructions-table tr {
-    border-bottom: 1px solid #ddd;
+h2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #742612; 
+    margin-bottom: 5;  
 }
 
 .nutritions-section {
@@ -69,7 +59,7 @@ h1 {
     font-size: 28px;
     font-weight: bold;
     color: #742612; 
-    margin-bottom: 5px;
+    margin-bottom: 5;
 }
 
 .nutrition-desc {
